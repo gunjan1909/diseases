@@ -1,4 +1,4 @@
-     var diseases = [];
+   var diseases = [];
       var myList = document.getElementById("myList");
       function data() {
         myList.innerHTML = "";
@@ -33,6 +33,9 @@
                 var textnode = document.createTextNode("No Diseases Found");
                 node.appendChild(textnode);
                 myList.appendChild(node);
+                alert(
+                  "Choose among : | 1 | brain | 2 | eyes | 3 | ears | 4 | nose | 5 | lips | 6 |tongue | 7 | jaw | 8 | neck | 9 | esophagus | 10 | lung | 11 | heart | 12 | rightarm | 13 | leftarm | 14 | elbows | 15 | hands | 16 | fingers | 17 | liver | 18 | spleen | 19 | stomach | 20 | pancreas | 21 | gallbladder | 22 | kidneys | 23 | smallintestin | | 24 | colon | | 25 | bladder | | 26 | testicles | | 27 | vagina | | 28 | malegenital | 29 | femalegenital | | 30 | anus | | 31 | leftleg | 32 | right_leg | 33 | knees | 34 | foot | 35 | heel | 36 | toes |"
+                );
               });
           })
           .catch((err) => {
